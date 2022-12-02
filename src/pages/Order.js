@@ -98,7 +98,7 @@ export default function Order() {
           <h1><b>Custmor Details</b></h1><br></br><br></br>
           <b>There are lot of custmors who are satisified in the 'Sales' website, after seeing the Products availability, Rates of the Products, and also with delivery experience.
             these are the details of our custmors with their valuable feedback and suggestions</b><br></br><br></br><br></br>
-          <div style = {{width: '900px',height: '500px', marginLeft: '20px'}}>
+          <div>
             <Table dataSource={dataSource} columns={columns}></Table>
           </div>
         </center>

@@ -56,7 +56,7 @@ export default function Dashboard() {
         <br></br>
         It consists all categories products so you can take a look on the Sales site.It provides all kinds of offers on EMI's, Debit and Credit cards and even they are are also providing coupons also, so that everyone can get all the products in their budget. 
       </b><br></br><br></br>
-    <div style = {{width: '700px',height: '500px', marginLeft: '20px'}}>
+    <div>
      <Bar options={options} data={data}></Bar>
      </div>
     </Content>

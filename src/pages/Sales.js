@@ -64,7 +64,7 @@ export default function Sales() {
       <b>In the Year 2022, most of the electronic category products were pruchased like nowhere esle in the 'Sales' website, it is observed that custmors are mainly focusing on gadgets and clothing only this sales graph shows that the data about all categories and annual plans</b><br></br><br></br>
         <h3>Products monthly sales details in the year 2022</h3>
         <br></br><br></br>
-        <div style = {{width: '700px',height: '500px', marginLeft: '20px'}}>
+        <div>
         <Line data={data} options={options}></Line>
         <br></br>
         <h3>Annual Sale data</h3>
